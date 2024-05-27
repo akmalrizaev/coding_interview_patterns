@@ -15,6 +15,8 @@
 // A brute-force algorithm will be to calculate the sum of every 5-element contiguous subarray of the given
 // array and divide the sum by ‘5’ to find the average. This is what the algorithm will look like:
 
+// Time Complexity - O(N^2)
+
 /*
 function find_averages_of_subarrays(K, arr) {
   const result = [];
@@ -52,6 +54,7 @@ console.log(`Averages of subarrays of size K: ${result}`);
 // from going through the whole subarray to find the sum and, as a result, the algorithm complexity will reduce to O(N).
 
 // Here is the algorithm for the Sliding Window approach:
+// Time Complexity - O(N)
 
 function find_averages_of_subarrays(K, arr) {
   const result = [];
