@@ -47,3 +47,5 @@ function smallest_subarray_with_given_sum(s, arr) {
 }
 
 console.log(smallest_subarray_with_given_sum(7, [2, 1, 5, 2, 3, 2]));
+
+console.log(smallest_subarray_with_given_sum(7, [2, 1, 5, 2, 8]));
