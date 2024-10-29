@@ -41,3 +41,5 @@ function pair_with_target_sum(arr, targetSum) {
 console.log(pair_with_target_sum([1, 2, 3, 4, 6], 6));
 
 console.log(pair_with_target_sum([2, 5, 9, 11], 11));
+
+console.log(pair_with_target_sum([3,2,4], 6))
