@@ -27,7 +27,7 @@ function find_cycle_start(head) {
             break;
         }
     }
-    return find_cycle_start(head, cycle_length);
+    return find_start(head, cycle_length);
 }
 
 function calculate_cycle_length(slow) {
